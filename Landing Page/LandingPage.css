@@ -1,0 +1,50 @@
+body {
+    min-height: 100vh;
+    background-image:url(../Images/LANDING-PG-DSN.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Louis George Café', 'Segoe UI', sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 95vh; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.button-link {
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button {
+    flex-wrap: wrap;
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #76ABAE;
+    letter-spacing: 1.5px;
+    font-family: 'Louis George Café', 'Segoe UI', sans-serif;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: #5e898b 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    box-shadow: #5e898b 0px 7px 0px 0px;
+  }
+  
+  button:active {
+    background-color: #76ABAE;
+    /*50, 168, 80*/
+    box-shadow: #5e898b 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 0.2s;
+  }
+  

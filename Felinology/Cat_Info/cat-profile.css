@@ -1,0 +1,135 @@
+@import url('https://fonts.cdnfonts.com/css/louis-george-cafe');
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Louis George Cafe', sans-serif; */
+    /* background-image: url("Images/FOR HOME PG/12. ABYSSINIAN.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Louis George Café', 'Segoe UI', sans-serif;
+    font-size: 20px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.breed-profile {
+    max-width: 900px;
+    margin: 600px auto 20px auto;
+    padding: 20px 50px 100px 50px;
+    box-shadow:
+    0px 0px 62.6px rgba(0, 0, 0, 0.081),
+    0px 0px 500px rgba(0, 0, 0, 0.17)
+    ;
+    border-radius: 8px;
+    background-color: #eeeeee;
+    color: #31363F;
+}
+
+.breed-profile h1 {
+    text-align: center;
+    color: black;
+}
+
+.breed-profile .breed-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+}
+
+.breed-info h2 {
+    color: #222831;
+    margin-top: 20px;
+}
+
+.breed-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.breed-info ul li, .description p  {
+    background: #f1f1f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+ul li:hover, .description p:hover {
+    background-color: #76ABAE;
+    transition: all 0.35s;
+}
+
+h1{
+    margin: 30px auto 50px auto;
+}
+
+img{
+    position: relative;
+    width: 25%;
+    height: 25%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.gallery{
+    margin: 30px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gallery img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.button{
+    background-color: #222831;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    /* bottom: 20px;
+    right: 20px; */
+    bottom: 35vh; /* to position on the left middle of the screen */
+    left: 20px;
+    position: fixed;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 0;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+}
+
+
+.button:hover {
+    letter-spacing: 3px;
+    background-color: #76ABAE;
+    color: #eeeeee;
+    box-shadow: #497578 0px 7px 29px 0px;
+  }
+  
+.button:active {
+  letter-spacing: 3px;
+  background-color: #76ABAE;
+  color: #eeeeee(0, 0%, 100%);
+  box-shadow: #497578 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+

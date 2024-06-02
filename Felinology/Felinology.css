@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    overflow-x: hidden;
+    background-image: url(/Felinology/Images/FELINE-BG-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.polaroid {
+    background: white;
+    padding: 1em;
+    box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.polaroid img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.caption {
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 2em;
+}
+
+.item {
+    width: 18%;
+    display: inline-block;
+    margin-top: 2rem;
+    filter: grayscale(100%);
+}
+
+.item a{
+    text-decoration: none; 
+    color: black;
+}
+
+
+
+.item:nth-of-type(odd) {
+    transform: scale(0.8,0.8) rotate(5deg);
+    transition: all 0.35s;
+}
+
+
+.item:nth-of-type(even) {
+    transform: scale(0.8,0.8) rotate(-5deg);
+    transition: all 0.35s;
+}
+
+
+
+.item:hover {
+    filter: none;
+    transform: scale(1,1) rotate(0);
+    transition: all 0.35s;
+}
+
+
+.wrapper {
+    padding: 100px 0 155px 0;
+
+}
+
+#A-cats, #B-cats, #C-cats, #D-cats, #E-cats, #H-cats,
+#J-cats, #K-cats, #L-cats, #M-cats, #N-cats, #O-cats, #P-cats,
+#R-cats, #S-cats, #T-cats {
+    padding-top: 100px;
+}
+.A-cats, .B-cats, .C-cats,  .D-cats, .E-cats, .H-cats, 
+.J-cats, .K-cats, .L-cats, .M-cats, .N-cats, .O-cats, .P-cats, 
+.R-cats, .S-cats, .T-cats{
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+.button{
+    background-color: #222831;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 0;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+}
+
+.button:hover {
+    letter-spacing: 3px;
+    background-color: #76ABAE;
+    color: #eeeeee;
+    box-shadow: #497578 0px 7px 29px 0px;
+  }
+  
+.button:active {
+  letter-spacing: 3px;
+  background-color: #76ABAE;
+  color: #eeeeee(0, 0%, 100%);
+  box-shadow: #497578 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+.felinology-front {
+    background-image: url(./Images/FRON-BG-TEST.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eeeeee;
+}
+.contents p {
+    text-align: center;
+    font-size: 18px;
+}
